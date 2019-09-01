@@ -63,8 +63,8 @@ def cmd():
 
 
 def camera():
-    Road = 'mjpg-streamer/mjpg-streamer-experimental/'
-    os.system('./' + Road + 'mjpg_streamer -i "./' + Road + '/input_uvc.so" -o "./' + Road + 'output_http.so -w ./' + Road + 'www"') 
+    Road = '/home/pi/mjpg-streamer/mjpg-streamer-experimental/'
+    os.system(Road + 'mjpg_streamer -i "' + Road + '/input_uvc.so" -o "' + Road + 'output_http.so -w ./' + Road + 'www"') 
     # ./mjpg_streamer -i "./input_uvc.so" -o "./output_http.so -w ./www"
     
 def timerfunc():

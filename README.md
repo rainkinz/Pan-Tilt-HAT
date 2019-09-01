@@ -20,3 +20,14 @@ Jetson Nano
 
 ![Pan-Tilt-HAT-5.JPG](Pan-Tilt-HAT-5.JPG)
 
+
+# My Notes
+
+http://www.airspayce.com/mikem/bcm2835/
+
+wget http://www.airspayce.com/mikem/bcm2835/bcm2835-1.60.tar.gz
+
+
+http://wiringpi.com/download-and-install/
+
+https://github.com/jacksonliam/mjpg-streamer
